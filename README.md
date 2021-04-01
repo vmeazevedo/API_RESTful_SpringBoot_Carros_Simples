@@ -15,41 +15,41 @@ https://www.youtube.com/watch?v=5JbAOWJbgIA&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8
 https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=3&ab_channel=CursoemV%C3%ADdeo
 
 
-## Objetivos:
-- Criar um projeto com SpringBoot
-- Criar um web service que se conecta no banco de dados MySQL
-- Retornar os dados no formato JSON
-- Criar um web service CRUD completo para criar, buscar, editar e excluir os dados
-- Aprender a utilizar o framework de persistência JPA (Java Persistence Api)
+## Goals:
+- Create a project with SpringBoot
+- Create a web service that connects to the MySQL database
+- Return data in JSON format
+- Create a complete CRUD web service to create, search, edit and delete data
+- Learn to use the JPA (Java Persistence Api) persistence framework
 
-## Informações úteis
-- Na pasta "imagens" você encontrará o teste de cada requisição realizado.
-- Na pasta "mysql_dados" você encontrará todas as informações utilizadas para criar a base de dados utilizada.
-- Na pasta "postman" você encontrará a explicação da utilização das requisições.
+## Useful information
+- In the "images" folder you will find the test of each request made.
+- In the folder "mysql_dados" you will find all the information used to create the database used.
+- In the "postman" folder you will find an explanation of the use of requests.
 
 ## Operation
 - url: http://localhost:8080/api/v1/carros/
 
-Acessando a url principal será apresentado toda a base de dados de nosso banco:
+Accessing the main url, the entire database of our bank will be presented:
 
 ![0_get](https://user-images.githubusercontent.com/40063504/113340024-c0925d00-9301-11eb-9576-4c560bf40156.PNG)
 
 - url: http://localhost:8080/api/v1/carros/id
 
-Informando um "Id" no final de nossa url será apresentado as informações do carro escolhido filtrado pelo Id.
+Informing an "Id" at the end of our url will show the information of the chosen car filtered by the Id:
 
 ![1_get_id](https://user-images.githubusercontent.com/40063504/113340034-c38d4d80-9301-11eb-88f2-736dde366e4c.PNG)
 
 - url: http://localhost:8080/api/v1/carros/tipo/{tipo}
 
-Informando o "Tipo" no final de nossa url será apresentado todos os carros contidos em nossa base filtrados pelo tipo.
+Informing the "Type" at the end of our url will show all the cars contained in our database filtered by type:
 
 ![2_get_tipo](https://user-images.githubusercontent.com/40063504/113340040-c5571100-9301-11eb-97b9-a74284d59fac.PNG)
 
 ## POST
 - url: http://localhost:8080/api/v1/carros/
 
-Passando o json exemplo podemos adicionar novos dados em nossa base de dados
+Passing the example json we can add new data in our database:
 
 ![3_post](https://user-images.githubusercontent.com/40063504/113340047-c720d480-9301-11eb-95bb-504e2b9e0326.PNG)
 
@@ -58,7 +58,7 @@ Passando o json exemplo podemos adicionar novos dados em nossa base de dados
 ## PUT
 - url: http://localhost:8080/api/v1/carros/id
 
-Passando um "Id" em nossa url, podemos realizar o update do Id requisitado informando os novos parâmetros nele.
+Passing an "Id" in our url, we can update the requested Id by informing the new parameters in it:
 
 ![4_put](https://user-images.githubusercontent.com/40063504/113340059-cb4cf200-9301-11eb-8681-23559a6f79e2.PNG)
 
@@ -67,5 +67,5 @@ Passando um "Id" em nossa url, podemos realizar o update do Id requisitado infor
 ## DELETE
 - url: http://localhost:8080/api/v1/carros/id
 
-Passando um "Id" em nossa url, podemos realizar a deleção do Id requisitado.
+By passing an "Id" in our url, we can perform the deletion of the requested Id:
 ![5_delete](https://user-images.githubusercontent.com/40063504/113340078-d011a600-9301-11eb-9904-67d9c1ec7d21.PNG)
