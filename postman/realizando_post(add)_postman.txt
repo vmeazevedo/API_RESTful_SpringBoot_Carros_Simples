@@ -1,0 +1,15 @@
+Add novo carro
+POSTMAN
+
+- Selecionar POST
+- Entrar com o endpoint: http://localhost:8080/api/v1/carros/
+- Headers:
+Key = Content-Type
+Value = application/json
+- Body:
+Selecionar raw:
+{
+        "nome": "Novo carro",
+        "tipo": "classicos"
+}
+- Clicar em SEND

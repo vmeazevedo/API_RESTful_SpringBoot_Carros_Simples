@@ -1,0 +1,17 @@
+Update carro
+POSTMAN
+
+- Selecionar PUT
+- Entrar com o endpoint, informando o id a ser atualizado: http://localhost:8080/api/v1/<id_atualizar>
+http://localhost:8080/api/v1/42
+
+- Headers:
+Key = Content-Type
+Value = application/json
+- Body:
+Selecionar raw e passar a atualização:
+{
+   "nome": "Novo carro - UPDATE",
+   "tipo": "classicos"
+}
+- Clicar em SEND
