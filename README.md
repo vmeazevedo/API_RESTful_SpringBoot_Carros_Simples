@@ -29,22 +29,26 @@ https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8
 
 ## Operation
 url: http://localhost:8080/api/v1/carros/
+
 Acessando a url principal será apresentado toda a base de dados de nosso banco:
 
 ![0_get](https://user-images.githubusercontent.com/40063504/113340024-c0925d00-9301-11eb-9576-4c560bf40156.PNG)
 
 url: http://localhost:8080/api/v1/carros/id
+
 Informando um "Id" no final de nossa url será apresentado as informações do carro escolhido filtrado pelo Id.
 
 ![1_get_id](https://user-images.githubusercontent.com/40063504/113340034-c38d4d80-9301-11eb-88f2-736dde366e4c.PNG)
 
 url: http://localhost:8080/api/v1/carros/tipo/{tipo}
+
 Informando o "Tipo" no final de nossa url será apresentado todos os carros contidos em nossa base filtrados pelo tipo.
 
 ![2_get_tipo](https://user-images.githubusercontent.com/40063504/113340040-c5571100-9301-11eb-97b9-a74284d59fac.PNG)
 
 ## POST
 url: http://localhost:8080/api/v1/carros/
+
 Passando o json exemplo podemos adicionar novos dados em nossa base de dados
 
 ![3_post](https://user-images.githubusercontent.com/40063504/113340047-c720d480-9301-11eb-95bb-504e2b9e0326.PNG)
@@ -53,6 +57,7 @@ Passando o json exemplo podemos adicionar novos dados em nossa base de dados
 
 ## PUT
 url: http://localhost:8080/api/v1/carros/id
+
 Passando um "Id" em nossa url, podemos realizar o update do Id requisitado informando os novos parâmetros nele.
 
 ![4_put](https://user-images.githubusercontent.com/40063504/113340059-cb4cf200-9301-11eb-8681-23559a6f79e2.PNG)
@@ -60,5 +65,7 @@ Passando um "Id" em nossa url, podemos realizar o update do Id requisitado infor
 ![4_put_1](https://user-images.githubusercontent.com/40063504/113340071-ce47e280-9301-11eb-99af-7394dc4807c9.PNG)
 
 ## DELETE
+url: http://localhost:8080/api/v1/carros/id
+
 Passando um "Id" em nossa url, podemos realizar a deleção do Id requisitado.
 ![5_delete](https://user-images.githubusercontent.com/40063504/113340078-d011a600-9301-11eb-9904-67d9c1ec7d21.PNG)
