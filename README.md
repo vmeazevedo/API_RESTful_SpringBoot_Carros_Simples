@@ -2,18 +2,23 @@
 Design of a simple RESTful API using the Spring Boot framework.
 
 ## Requirements
-You will need to install the library below:
 - mysql-connector
 - Spring Tool Suite 4: 
 https://www.youtube.com/watch?v=FFedk11F838&ab_channel=WilliamJ%C3%BAnior
 
-You will need to instal MySQL and XAMPP also:
 - MySQL installation tutorial:
 https://www.youtube.com/watch?v=5JbAOWJbgIA&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=2&ab_channel=CursoemV%C3%ADdeo
 
 - XAMPP installation tutorial:
 https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r&index=3&ab_channel=CursoemV%C3%ADdeo
 
+## Technologies
+- Spring Tool Suite 4
+- Java 8
+- Maven
+- JPA
+- MySQL
+- Swagger
 
 ## Goals:
 - Create a project with SpringBoot
