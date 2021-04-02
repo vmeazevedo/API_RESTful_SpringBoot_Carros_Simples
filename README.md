@@ -27,11 +27,6 @@ https://www.youtube.com/watch?v=R2HrwSQ6EPM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8
 - Create a complete CRUD web service to create, search, edit and delete data
 - Learn to use the JPA (Java Persistence Api) persistence framework
 
-## Useful information
-- In the "images" folder you will find the test of each request made.
-- In the folder "mysql_dados" you will find all the information used to create the database used.
-- In the "postman" folder you will find an explanation of the use of requests.
-
 ## Operation
 ![Capturar](https://user-images.githubusercontent.com/40063504/113459765-e8122400-93ec-11eb-8dfd-b8b378c13ff4.PNG)
 
